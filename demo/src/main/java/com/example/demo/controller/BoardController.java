@@ -9,8 +9,10 @@ public class BoardController {
 	// 화이팅ㅋㅋㅋㅋㅋㅋ
 	// 후후훗
 	// 김경훈 추가
-
 	// 안녕? test
+
+	// ㅋㅋㅋㅋㅋㅋ
+    // oo
 	
 	// 김경훈 ㅁㄴㅇㅁㄴㅇ
 
