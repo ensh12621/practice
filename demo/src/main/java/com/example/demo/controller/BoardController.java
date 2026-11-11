@@ -5,11 +5,21 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class BoardController {
 
+	
+// 충돌~~
+
+
 	// 힘내세여~~^^
 	// 화이팅ㅋㅋㅋㅋㅋㅋ
+
 	// 후후훗
 	// 김경훈 추가
+
+	// 테스트
+
 	// 안녕? test
+	// 테스트
+
 	// csfjklkfdsjsl;jdfl;kjflkjf;sdfsf
 
 	public void sdfs() {
@@ -22,7 +32,11 @@ public class BoardController {
 
     // oo
 	
+
 	// 김경훈 ㅁㄴㅇㅁㄴㅇ
+
+//ㅁㄴㅇ
+
 
 
 // qqqq
