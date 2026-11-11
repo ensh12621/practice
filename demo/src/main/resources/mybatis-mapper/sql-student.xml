@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.mapper.StudentMapper">
+	<!-- 여러개 검색 -->
+	<select id="selectStudent" resultType="com.example.demo.model.Student">
+		SELECT 
+			*, 
+		    CASE 
+				WHEN SUBSTR(JUMIN, 7, 1) = 1 THEN '남성'
+		        WHEN SUBSTR(JUMIN, 7, 1) = 2 THEN '여성'
+			END AS GENDER
+		FROM STU S
+		LEFT JOIN DEPARTMENT D ON S.DEPTNO1 = D.DEPTNO
+	</select>
+	<insert id="insertStudent" parameterType="hashmap">
+		<!-- 학번, 이름, 학년, 주민번호만 저장 -->
+		INSERT INTO STU(STUNO, NAME, GRADE, JUMIN, ID)
+		VALUES(#{stuNo}, #{name}, #{grade}, #{jumin}, #{id})
+	</insert>
+	
+	<select id="selectStudentList" resultType="com.example.demo.model.Student">
+		SELECT 
+			*, 
+		    CASE 
+				WHEN SUBSTR(JUMIN, 7, 1) = 1 THEN '남성'
+		        WHEN SUBSTR(JUMIN, 7, 1) = 2 THEN '여성'
+			END AS GENDER
+		FROM STU S
+		LEFT JOIN DEPARTMENT D ON S.DEPTNO1 = D.DEPTNO
+	</select>
+	
+	
+	
+</mapper>
+
+
+
+
+
