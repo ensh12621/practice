@@ -31,6 +31,12 @@ public class StudentController {
 		return "/add"; 
 	}
 	
+	@RequestMapping("/student/edit.do")
+	public String edit(Model model) throws Exception{
+		
+		return "/edit"; 
+	}
+	
 	@RequestMapping(value = "/student/list.dox", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
 	@ResponseBody
 	public String login(Model model, @RequestParam HashMap<String, Object> map) throws Exception {
