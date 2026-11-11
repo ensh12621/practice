@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class BoardController {
 	
-
+// 충돌~~
 	// 후후훗
 	// 김경훈 추가
 
