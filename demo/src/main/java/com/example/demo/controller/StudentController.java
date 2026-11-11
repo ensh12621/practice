@@ -28,7 +28,7 @@ public class StudentController {
 	@RequestMapping("/student/add.do")
 	public String add(Model model) throws Exception{
 		
-		return "/add";
+		return "/add"; 
 	}
 	
 	@RequestMapping(value = "/student/list.dox", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
