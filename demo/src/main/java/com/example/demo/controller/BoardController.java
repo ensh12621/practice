@@ -10,8 +10,15 @@ public class BoardController {
 	// 후후훗
 	// 김경훈 추가
 	// 안녕? test
+	// csfjklkfdsjsl;jdfl;kjflkjf;sdfsf
 
-	// ㅋㅋㅋㅋㅋㅋ
+	public void sdfs() {
+		for(int i=0; i<=10; i++) {
+			System.out.println("집가고싶다");
+		}
+	}
+	
+
     // oo
 	
 	// 김경훈 ㅁㄴㅇㅁㄴㅇ
