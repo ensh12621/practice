@@ -7,6 +7,7 @@ public class BoardController {
 	
 	// 안녕? test
 
-	
-	
+
+	// ㅋㅋㅋㅋㅋㅋ
+
 }
