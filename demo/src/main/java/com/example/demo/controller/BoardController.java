@@ -11,7 +11,11 @@ public class BoardController {
 
 	// 안녕? test
 
-
+	//ㄴㄹㅇㄴㅇㄹㄴㅇㄹㅇ
 	// ㅋㅋㅋㅋㅋㅋ
+	
+	for(int i=0; i<=10; i++) {
+		System.out.println("집가고싶다");
+	}
 
 }
