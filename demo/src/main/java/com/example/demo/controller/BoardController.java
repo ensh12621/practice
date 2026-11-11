@@ -17,7 +17,8 @@ public class BoardController {
 			System.out.println("집가고싶다");
 		}
 	}
-	
+	//fsdafjkddhajklfdhafkdjhakfdjhsadkjlfhsdjklhfdklsjahfdjkalf
+	//sdfjklsdfjsdlkfjasf;jafl;kdjfal
 
     // oo
 	
