@@ -12,7 +12,7 @@ public class BoardController {
 	// 안녕? test
 	// 테스트
 	// 김경훈 ㅁㄴㅇㅁㄴㅇ
-
+//ㅁㄴㅇ
 	// ㅋㅋㅋㅋㅋㅋ
 
 }
