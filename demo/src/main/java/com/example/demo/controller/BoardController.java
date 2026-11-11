@@ -10,7 +10,8 @@ public class BoardController {
 	// 김경훈 추가
 
 	// 안녕? test
-
+	
+	// 김경훈 ㅁㄴㅇㅁㄴㅇ
 
 	// ㅋㅋㅋㅋㅋㅋ
 
